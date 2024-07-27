@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Plantilla backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubiobio/Plantilla-Proyecto-MDD.git"
+  },
+  "author": "Diego Salazar Jara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ubiobio/Plantilla-Proyecto-MDD/issues"
+  },
+  "homepage": "https://github.com/ubiobio/Plantilla-Proyecto-MDD?tab=readme-ov-file",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express-session": "^1.18.0",
+    "morgan": "^1.10.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4",
+    "prettier": "3.2.5"
+  }
+}
